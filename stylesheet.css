@@ -1,0 +1,41 @@
+*{
+	margin:0 0;
+　　box-sizing:border-box;
+    line-height: 1.82rem;
+　　margin-bottom: 1.25rem;
+}
+body{
+	/*padding:0 10% 0 10%;*/
+}
+
+/*============= H E A D E R ====================*/
+
+#header{
+	width:100%;
+	height:72px;
+}
+#header div.header-left-logo{
+	width:20%;
+	height:72px;
+	position: relative;
+	box-sizing: border-box;
+	background-color: skyblue;
+}
+#header div.header-left-logo img{
+	display:block;
+	position: absolute;
+	max-height: 70%;
+	max-width:80%;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	margin:auto;
+}
+#header div.header-left-text{
+	clear:both;
+	float: left;
+	background-color: green;
+}
+#header div.header-right{
+}

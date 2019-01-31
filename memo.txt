@@ -1,0 +1,17 @@
+模写対象URL
+
+https://isara.life/
+
+模写するにあたり
+
+https://haniwaman.com/replication-coding/
+
+コーディングツール
+
+①Chrome拡張機能「What Font」
+
+②サイト上の画像を一括保存できるChrome拡張機能「Image Downloader」
+
+③Chrome拡張機能「Ruler」
+
+④Chrome拡張機能　ColorPick Eyedropper
