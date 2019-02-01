@@ -5,6 +5,7 @@
 }
 body{
 	/*padding:0 10% 0 10%;*/
+	position: relative;
 }
 
 /*============= H E A D E R ====================*/
@@ -12,6 +13,9 @@ body{
 #header{
 	width:100%;
 	height:72px;
+	position: fixed;
+	z-index: 100;
+	background-color: white;
 }
 #header div.header-left{
 	height:72px;
@@ -58,13 +62,12 @@ body{
 	background-color:skyblue;
 	height: auto;
 	max-width:100%;
-
 	text-align: center;
 }
 #content div.content-top h1{
-	padding-top: 100px;
+	padding-top: 174px;
 	line-height: 60px;
-	font-size:24px;
+	font-size:28px;
 	font-weight:600;
 }
 #content div.content-top img{
@@ -73,14 +76,14 @@ body{
 #content div.content-top p{
 	padding-top: 64px;
 	padding-bottom: 120px;
-	font-size:16px;
+	font-size:20px;
 	font-weight:600;
 }
 
 #content div.contact{
 	text-align: center;
 	background-color: #EBB94D;
-	height: 100vh;
+	overflow: hidden;
 }
 #content div.contact p{
 	color:white;
@@ -120,18 +123,58 @@ body{
 #content div.contact .p4{
 	margin-bottom: 40px;
 }
+#content div.contact .btn-wrap{
+	padding-bottom: 50px;
+}
+#content div.contact .btn{
+	font-size:10px;
+	font-weight: bold;
+	color:white;
+	display: inline-block;
+	padding:5px 10px ;
+	border-radius: 4px;,
+}
 #content div.contact .btn1{
-	background-color: red;
-	padding:5px 20px ;
-	font-size: 10px;
+	background-color: #1B95E0;
 }
 #content div.contact .btn2{
-	background-color: skyblue
-	padding:5px 20px ;
-	font-size: 10px;
+	background-color: #4267B2;
 }
 #content div.contact .btn3{
-	background-color: skyblue
-	padding:5px 20px ;
-	font-size: 10px;
+	background-color: #4267B2;
+}
+
+#content div.introduction .intro-top{
+	height:50vh;
+	width: 100%;
+	padding: 50px 50px;
+	box-sizing: border-box;
+}
+#content div.introduction .intro-text-wrap{
+	height:100px;
+	width:860px;
+	margin:0 auto;
+	position: relative;
+}
+#content div.introduction .intro-text-wrap p{
+	text-align: center;
+	line-height: 100px;
+	font-size: 24px;
+	font-weight: 600;
+}
+#content div.introduction .intro-cornar-left{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	border-top: solid 4px #EBB94D;
+	border-left: solid 4px #EBB94D;
+}
+#content div.introduction .intro-cornar-right{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right:0;
+	bottom:0;
+	border-right: solid 4px #EBB94D;
+	border-bottom: solid 4px #EBB94D;
 }
