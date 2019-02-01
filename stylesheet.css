@@ -59,6 +59,7 @@ body{
 #content div.content-top{
 	background-image: url("public/main.jpg");
 	background-size: cover;
+	background-position: center center;
 	background-color:skyblue;
 	height: auto;
 	max-width:100%;
@@ -79,7 +80,7 @@ body{
 	font-size:20px;
 	font-weight:600;
 }
-
+/*========= d i v . c o n t a c t =========*/
 #content div.contact{
 	text-align: center;
 	background-color: #EBB94D;
@@ -101,12 +102,14 @@ body{
 	font-weight:600;
 	font-size:20px;
 	margin:20px 0 0 0;
+	margin-bottom: 15px;
 }
 
 #content div.contact .con2{
-	display: inline-block;
-	padding: 30px 280px 30px 280px;
-	margin:50px 0 50px 0;
+	display: block;
+	padding: 30px 0 30px 0;
+	max-width:870px;
+	margin:0 auto;
 	border-radius: 50px;
 	color: white;
 	background-color: #D84940;
@@ -115,6 +118,7 @@ body{
 	letter-spacing: 2.5px;
 }
 #content div.contact .p2{
+	margin-top: 15px;
 	margin-bottom: 20px;
 }
 #content div.contact .p3{
@@ -143,16 +147,16 @@ body{
 #content div.contact .btn3{
 	background-color: #4267B2;
 }
-
+/*========= d i v . i n t r o d u c t i o n =========*/
 #content div.introduction .intro-top{
-	height:50vh;
+	height:auto;
 	width: 100%;
 	padding: 50px 50px;
 	box-sizing: border-box;
 }
 #content div.introduction .intro-text-wrap{
-	height:100px;
-	width:860px;
+	max-height:100px;
+	max-width:860px;
 	margin:0 auto;
 	position: relative;
 }
@@ -161,6 +165,7 @@ body{
 	line-height: 100px;
 	font-size: 24px;
 	font-weight: 600;
+	letter-spacing: 1.6px;
 }
 #content div.introduction .intro-cornar-left{
 	height: 50px;
@@ -177,4 +182,115 @@ body{
 	bottom:0;
 	border-right: solid 4px #EBB94D;
 	border-bottom: solid 4px #EBB94D;
+}
+#content div.introduction .intro-bottom{
+	background-image: url("public/introbottom.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	padding-bottom: 140px;
+}
+#content div.introduction .intro-bottom p{
+	text-align: center;
+	font-weight: 300;
+	font-size: 20px;
+}
+#content div.introduction .intro-bottom p span{
+	display: inline-block;
+	line-height: 0.5;
+	font-weight: 600;
+	border-bottom: solid 8px #EBB94D;
+}
+/*========= d i v . a b o u t =========*/
+
+#content div.about{
+	padding-top:50px;
+	background-color: #FEF5E0;
+	position: relative;
+}
+#content div.about .about-top .about-icon{
+	height:80px; 
+	width:80px;
+	border-radius: 50%;
+	background-color: #EBB94D;
+	text-align:center;
+	line-height: 80px;
+	vertical-align: middle;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	position: absolute;
+	top:-40px;
+	left:calc(50% - 40px);
+}
+
+#content div.about .about-top .about-text-wrap{
+	max-height:140px;
+	max-width:860px;
+	margin:0 auto;
+	position: relative;
+}
+#content div.about .about-top .about-text-wrap p{
+	padding:50px 0 50px 0;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+}
+#content div.about .about-top .about-cornar-left{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	border-top: solid 4px #EBB94D;
+	border-left: solid 4px #EBB94D;
+}
+#content div.about .about-top .about-cornar-right{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right:0;
+	bottom:0;
+	border-right: solid 4px #EBB94D;
+	border-bottom: solid 4px #EBB94D;
+}
+#content div.about .about-top .about-text-answer{
+	padding:45px 0 45px 0;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+}
+#content div.about .about-bottom{
+	padding-bottom: 50px;
+}
+#content div.about .about-bottom .about-bottom-wrap{
+	border:solid 2px #EBB94D;
+	background-color: white;
+	max-width: 92%;
+	height:200px;
+	margin:0 auto;
+	padding-bottom: 30px;
+}
+#content div.about .about-bottom .about-skills-cap p{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	padding:30px 0 30px 0;
+}
+#content div.about .about-bottom .about-skills-wrap{
+	margin:0 auto;
+	width:60%;
+}
+#content div.about .about-skills-wrap .skill{
+	width:19%;
+	height:auto;
+	display: inline-block;
+	text-align: center;
+}
+#content div.about .about-skills-wrap .skill img{
+	height:40%;
+}
+#content div.about .about-skills-wrap .skill p{
+	font-size: 12px;
+	font-weight: 300;
 }
