@@ -350,3 +350,158 @@ body{
 	font-size: 16px;
 	font-weight: bold;
 }
+/*========= d i v . a b o u t t h i r d =========*/
+#content div.aboutthird{
+	text-align: center;
+	padding:40px 0 45px 0;
+	letter-spacing: 1.5px;
+	color: white;
+	background-color: #016EA9;
+}
+#content div.aboutthird p{
+	font-size:16px;
+	font-weight: 600;
+}
+#content div.aboutthird span{
+	color:#EBB94D;
+}
+/*========= d i v . l e a r n i n g =========*/
+#content div.learning .top{
+	text-align: center;
+	padding:70px 0 50px 0;
+}
+#content div.learning .top p:nth-child(1){
+	letter-spacing: 1.5px;
+	font-size:24px;
+	font-weight: 600;
+	padding-bottom: 50px;
+}
+#content div.learning .top span{
+	font-size:14px;
+}
+#content div.learning .top p:nth-child(2){
+	font-size: 16px;
+}
+#content div.learning .main{
+	text-align: center;
+}
+#content div.learning .main img{
+	padding:0 20px 0 20px;
+}
+#content div.learning p.bottom{
+	text-align: center;
+	padding:56px 0 70px 0;
+	font-weight: 600;
+}
+
+/*========= d i v . m e r i t =========*/
+#content div.merit{
+	background-color: #FEF5E0;
+}
+
+#content div.merit .top-wrap{
+	max-height:140px;
+	max-width:860px;
+	margin:0 auto;
+	position: relative;
+}
+#content div.merit .top-wrap p{
+	padding:30px 0 30px 0;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+}
+#content div.merit .top-wrap span{
+	font-size: 16px;
+}
+#content div.merit .cornar-left{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	border-top: solid 4px #EBB94D;
+	border-left: solid 4px #EBB94D;
+}
+#content div.merit .cornar-right{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right:0;
+	bottom:0;
+	border-right: solid 4px #EBB94D;
+	border-bottom: solid 4px #EBB94D;
+}
+
+#content div.merit .main{
+	text-align: center;
+	padding-top: 40px;
+}
+#content div.merit .main .content{
+	display: inline-block;
+	width:25%;
+	padding:0 20px 0 20px;
+	vertical-align: top;
+}
+#content div.merit .main .content .imgone{
+	background-image: url("public/learnfromfreelancer.jpg");
+}
+#content div.merit .main .content .imgtwo{
+	background-image: url("public/learnfromprojects.jpg");
+}
+#content div.merit .main .content .imgthree{
+	background-image: url("public/actuallyfree.jpg");
+}
+#content div.merit .main .content .img{
+	background-position: center center;
+	background-size: cover;
+	height: 180px;
+	width: 100%;
+}
+#content div.merit .main .content p.sub{
+	font-size:20px ;
+	font-weight:700;
+	color:#EBB94D;
+	letter-spacing: 1.6px;
+	text-align: left;
+}
+#content div.merit .main .content p.cen{
+	text-align: left;
+	letter-spacing: 1.4px;
+}
+
+#content div.merit .bottom{
+	padding:55px 0 55px 0;
+}
+#content div.merit .bottom .bottom-top{
+	margin:0 auto;
+	width:80%;
+	border:solid 2px #EBB94D;
+	border-radius: 5px;
+	padding:40px 0 50px 0;
+	background-color: white;
+	text-align: center;
+}
+#content div.merit .bottom .top1{
+	font-size:28px;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+	color:#EBB94D;
+	padding-bottom: 10px;
+}
+#content div.merit .bottom .top2{
+	font-size:20px;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+	padding-bottom: 10px;
+}
+#content div.merit .bottom .top3{
+	font-size:16px;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+}
+#content div.merit .bottom .bottom-bottom{
+	padding-top: 45px;
+	font-size:14px;
+	font-weight: 300;
+	text-align: center;
+}

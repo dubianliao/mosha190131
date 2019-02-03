@@ -15,3 +15,8 @@ https://haniwaman.com/replication-coding/
 ③Chrome拡張機能「Ruler」
 
 ④Chrome拡張機能　ColorPick Eyedropper
+
+
+[自分で発見した課題]
+フォントサイズの指定・レスポンシブ対応
+=>ピクセル指定すると幅によって見え方が違う。
