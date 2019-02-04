@@ -555,5 +555,96 @@ body{
 	padding:10px 10px 10px 10px;
 	text-align: left;
 }
+/*========= d i v . w h y =========*/
+#content div.why{
+	background-color: #EBB94D;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#content div.whi .why-circle{
+}
+#content div.why .circle{
+	margin: 0 auto;
+	height:80px;
+	width:80px;
+	border-radius: 50%;
+	background-color: white;
+	color:#EBB94D;
+	text-align: center;
+	line-height: 80px;
+}
 
-
+#content div.why .top-wrap{
+	max-height:140px;
+	max-width:860px;
+	margin:0 auto;
+	position: relative;
+	color:white;
+}
+#content div.why .top-wrap p{
+	padding:30px 0 30px 0;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+}
+#content div.why .top-wrap span{
+	font-size: 28px;
+}
+#content div.why .cornar-left{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	border-top: solid 4px white;
+	border-left: solid 4px white;
+}
+#content div.why .cornar-right{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right:0;
+	bottom:0;
+	border-right: solid 4px white;
+	border-bottom: solid 4px white;
+}
+/*========= d i v . a n s w e r =========*/
+#content div.answer{
+	width:100%;
+} 
+#content div.answer .triangle-wrap{
+	width:30px;
+	margin: 0 auto;
+}
+#content div.answer .triangle{
+  border-top: 30px solid #EBB94D;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+}
+#content div.answer{
+	text-align: center;
+}
+#content div.answer .content p:nth-child(1){
+	font-size: 28px;
+	font-weight: 600;
+}
+#content div.answer .content p:nth-child(2){
+	font-size: 16px;
+	font-weight: 600;
+}
+#content div.answer .content p:nth-child(3){
+	font-size: 14px;
+}
+#content div.answer .intro{
+	width:70%;
+}
+#content div.answer .intro img{
+	border:2px solid #EBB94D;
+	max-width: 200px;
+	float: left;
+}
+#content div.answer .intro p{
+	float: left;
+}
+#content div.answer .intro span{
+	text-underline-position: 1px;
+}
