@@ -505,3 +505,55 @@ body{
 	font-weight: 300;
 	text-align: center;
 }
+/*========= d i v . t e a c h e r w r a p =========*/
+#content div.teacherwrap{
+	background-image: url("public/teacherbgsp.jpg");
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	padding: 70px 0 50px 0;
+	color: white;
+}
+#content div.teacherwrap .teach-sub{
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing:1.4px ;
+}
+#content div.teacherwrap .teach-content{
+	font-size: 14px;
+	font-weight:600;
+	letter-spacing:1.4px ;
+}
+#content div.teacherwrap .teachers{
+	margin:0 auto;
+	text-align: center;
+	width:90%;
+}
+#content div.teacherwrap .teachers .teacher{
+	padding:180px 0 0 0;
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+#content div.teacherwrap .teachers .intro img{
+	position: absolute;
+	top:-150px;
+	left:calc(50% - 100px) ;
+	text-align: center;
+	border-radius: 50%;
+	width:200px;
+	height:200px;
+}
+#content div.teacherwrap .teachers .teacher .intro{
+	display: inline-block;
+	position: relative;
+	width:80%;
+	border:3px solid white;
+	padding:70px 10px 10px 10px;
+}
+#content div.teacherwrap .teachers .teacher .intro-content{
+	padding:10px 10px 10px 10px;
+	text-align: left;
+}
+
+
