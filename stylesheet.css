@@ -667,3 +667,170 @@ body{
 	line-height: 13px;
 	border-bottom:1px solid black;
 }
+/*========= d i v . c l a s s =========*/
+#content div.class{
+	background-image: url("public/classbg.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+#content div.class{
+
+}
+#content div.class .top{
+	padding:40px 0 30px 0;
+	text-align: center;
+	letter-spacing: 1.6px;
+	color: white;
+}
+#content div.class p:nth-child(1){
+	font-size: 28px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+#content div.class p:nth-child(2){
+	font-size: 18px;
+	font-weight: 600;
+}
+#content div.class .bottom{
+	text-align: center;
+	padding-bottom: 80px;
+}
+#content div.class .bottom ul{
+	text-align: center;
+	display: inline-block;
+	padding-left: 0;
+	margin: 0 10px 0 10px;
+	width: 35%;
+	vertical-align: top;
+	list-style: none;
+	border:2px solid #016EA9;
+	background-color: white;
+	font-weight: bold;
+}
+#content div.class .bottom ul li:nth-child(1){
+	background-color: #016EA9;
+	font-size: 20px;
+	padding: 15px 0 15px 0;
+	color: white;
+}
+#content div.class .bottom ul li{
+	padding:10px 0 10px 0;
+	font-size: 18px;
+	border-bottom:0.5px #E5E5E5 solid;
+}
+/*========= d i v . c l a s s b o t t o m =========*/
+#content div.classbottom{
+	background-color: #016EA9;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1.6px;
+	text-align: center;
+	padding:30px 0 30px 0;
+}
+#content div.classbottom p{
+	line-height: 1.5;
+}	
+/*========= d i v . f l o w =========*/
+/*========= d i v . b a n g k o k =========*/
+#content div.bangkok{
+	background-image: url("public/bangkokbg.jpg");
+	background-position: center center;
+	background-size: cover;
+	text-align: left;
+	padding: 50px 0 40px 30px;
+	color: white;
+}
+#content div.bangkok p:nth-child(1){
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	padding-bottom: 30px;
+}
+#content div.bangkok p:nth-child(2){
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 1.4px;
+	padding-bottom: 30px;
+}
+#content div.bangkok ul{
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+}
+#content div.bangkok ul li{
+	padding-bottom: 10px;
+}
+#content div.bangkok p.bottom{
+	padding:20px 0 30px 0;
+	font-size: 15px;
+	font-weight: bold;
+}
+/*========= d i v . s p e c i a l =========*/
+#content div.special{
+	text-align: center;
+	background-color: #F7C23C;
+	padding-bottom: 40px;
+}
+#content div.special span{
+	color:white;
+}
+#content div.special p.title{
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	padding:40px 0 40px 0;
+}
+#content div.special p:nth-child(2){
+	margin-bottom: 100px;
+	font-weight: bold;
+}
+#content div.special .content-wrap{
+	border:4px solid white;
+	padding:40px;
+	margin: 0 auto;
+	width:80%;
+	position: relative;
+}
+#content div.special .content-wrap p.sub{
+	font-size: 26px;
+	font-weight: bold;
+	position: absolute;
+	left:calc(50% - 300px / 2);
+	top:-50px;
+	background-color: #F7C23C;
+	width: 300px;
+}
+#content div.special .content-wrap .content{
+	display: inline-block;
+	width:20%;
+	margin: 0 40px 0 40px;
+	vertical-align: top;
+}
+#content div.special .content-wrap .content .circle{
+	height:250px;
+	width:250px;
+	border-radius: 50%;
+	background-color: white;
+}
+#content div.special .content-wrap .content .circle p:nth-child(1){
+	height:40%;
+	color:orange;
+	font-size: 26px;
+	line-height:calc(250px * 0.5); 
+}
+#content div.special .content-wrap .content .circle p:nth-child(2){
+	font-size: 16px;
+	letter-spacing: 1.2px;
+	padding:8px;
+}
+
+
+
+
+/*========= d i v . s p e c i a l d e t a i l =========*/
+/*========= d i v . l e a r n i n g =========*/
+/*========= d i v . c o n t a c t f o r m =========*/
+/*========= d i v . q u e s t i o n s =========*/
+/*========= f o o t e r =========*/
+/*========= d i v . f o o t e r w r a p =========*/
