@@ -397,6 +397,7 @@ body{
 /*========= d i v . m e r i t =========*/
 #content div.merit{
 	background-color: #FEF5E0;
+	padding-top: 40px;
 }
 
 #content div.merit .top-wrap{
@@ -732,6 +733,56 @@ body{
 	line-height: 1.5;
 }	
 /*========= d i v . f l o w =========*/
+#content div.flow{
+	text-align: center;
+	font-size: 0;
+	padding-bottom: 40px;
+}
+#content div.flow p{
+	font-size: 28px;
+	font-weight: bold;
+	padding:50px 0 50px 0;
+}
+#content div.flow img{
+	width:80%;
+	padding-bottom: 30px;
+}
+#content div.flow .content-wrap{
+	display: inline-block;
+	width:80%;
+	background-color: #FEF5E0;
+	padding:20px 30px 20px 40px;
+}
+#content div.flow .content-wrap .left{
+	display: inline-block;
+	width:30%;
+	float: left;
+}
+#content div.flow .content-wrap .left img{
+	width:50%;
+	padding-bottom: 10px;
+}
+#content div.flow .content-wrap .left p{
+	padding:10px 0 0 0;
+	font-size: 18px;
+}
+#content div.flow .content-wrap .right{
+	display: inline-block;
+	width:70%;
+}
+#content div.flow .content-wrap .right p{
+	padding:10px 0 0 0;
+	vertical-align: top;
+	text-align: left;
+	font-size: 14px
+}
+#content div.flow .content-wrap .right p span{
+	font-size: 20px
+}
+#content div.flow .flow-connect{
+	width:60%;
+	padding:0 0 0 0;
+}
 
 
 /*========= d i v . b a n g k o k =========*/
