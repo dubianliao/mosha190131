@@ -7,6 +7,18 @@ body{
 	/*padding:0 10% 0 10%;*/
 	position: relative;
 }
+#top-btn{
+	position: fixed;
+	z-index: 100;
+	display: none;
+	width:80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background-color: #ECECEC;
+	bottom: 15%;
+	right: 5%;
+}
 
 /*============= H E A D E R ====================*/
 
