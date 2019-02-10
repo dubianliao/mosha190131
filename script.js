@@ -52,7 +52,7 @@ $(function(){
 		}
 	);
 
-	//ホバーアクション 小さいボタン
+	//ホバーアクション SNSボタン
 	$('.btn').hover(
 		function(){
 			$(this).css('backgroundColor','skyblue');

@@ -1,4 +1,4 @@
-@media screen and (min-width: 640px) {
+@media screen and (max-width: 640px) {
 
 *{
 	margin:0 0;
@@ -57,26 +57,28 @@ body{
 	float:left;
 }
 #header div.header-right a{
-	display: inline-block;
-	margin-top:12px; 
-	margin-right:45px;
-	padding: 15px 25px 15px 25px;
-	border-radius: 25px;
-	color: white;
-	background-color: #D84940;
-	font-size: 12px;
-	letter-spacing: 2.5px;
-	float:right;
-	cursor: pointer;
+	display: none;
 }
 #header div.header-right a.contactsp{
-	display:none;
+	display:inline-block;
+	position: absolute;
+	top:0;
+	right: 0;
+	width: 70px;
+	height: 72px;
+	background-color: #D84940;
+	color: white;
+	text-align: center;
+}
+#header div.header-right a.contactsp span:hover{
+	display:inline-block;
+	border-bottom: 1px solid white;
 }
 
 /*============= C O N T E N T ====================*/
 
 #content div.content-top{
-	background-image: url("public/main.jpg");
+	background-image: url("public/mainsp.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-color:skyblue;
