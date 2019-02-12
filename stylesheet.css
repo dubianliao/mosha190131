@@ -1,4 +1,4 @@
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 1000px) {
 
 *{
 	margin:0 0;
@@ -529,9 +529,10 @@ body{
 }
 /*========= d i v . t e a c h e r w r a p =========*/
 #content div.teacherwrap{
-	background-image: url("public/teacherbgsp.jpg");
+	background-image: url("public/teacherbg.jpg");
 	background-size: cover;
 	background-position: center center;
+	width: 100%;
 	text-align: center;
 	padding: 70px 0 50px 0;
 	color: white;

@@ -1,4 +1,4 @@
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
 
 *{
 	margin:0 0;
@@ -64,7 +64,7 @@ body{
 	position: absolute;
 	top:0;
 	right: 0;
-	width: 70px;
+	width: 20%;
 	height: 72px;
 	background-color: #D84940;
 	color: white;
@@ -74,7 +74,6 @@ body{
 	display:inline-block;
 	border-bottom: 1px solid white;
 }
-
 /*============= C O N T E N T ====================*/
 
 #content div.content-top{
@@ -848,61 +847,21 @@ body{
 	background-color: #F7C23C;
 	padding-bottom: 40px;
 }
-#content div.special span{
-	color:white;
-}
-#content div.special p.title{
-	font-size: 26px;
-	font-weight: bold;
-	letter-spacing: 1.4px;
-	padding:40px 0 40px 0;
-}
-#content div.special p:nth-child(2){
-	margin-bottom: 100px;
-	font-weight: bold;
-}
 #content div.special .content-wrap{
-	border:4px solid white;
-	padding:40px;
-	margin: 0 auto;
 	width:80%;
-	position: relative;
+	border:solid white 2px;
+	margin:0 auto;
 }
-#content div.special .content-wrap p.sub{
-	font-size: 26px;
-	letter-spacing: 2.5px;
-	font-weight: bold;
-	position: absolute;
-	left:calc(50% - 700px / 2);
-	top:-50px;
-	background-color: #F7C23C;
-	width: 700px;
-}
-#content div.special .content-wrap .content{
+#content div.special .content{
 	display: inline-block;
-	width:20%;
-	margin: 0 40px 0 40px;
-	vertical-align: top;
+	height: 50%;
+	width:50%;
+	margin:1em;
+    background-color: white;
 }
-#content div.special .content-wrap .content .circle{
-	height:250px;
-	width:250px;
-	border-radius: 50%;
-	background-color: white;
-}
-#content div.special .content-wrap .content .circle p:nth-child(1){
-	height:40%;
-	color:orange;
-	font-size: 26px;
-	line-height:calc(250px * 0.5); 
-}
-#content div.special .content-wrap .content .circle p:nth-child(2){
-	font-size: 16px;
-	letter-spacing: 1.2px;
-	padding:8px;
-}
+#content div.special .content .circle{
 
-
+}
 
 
 /*========= d i v . s p e c i a l d e t a i l =========*/
