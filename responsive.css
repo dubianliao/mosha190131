@@ -538,41 +538,43 @@ body{
 	color: white;
 }
 #content div.teacherwrap .teach-sub{
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 600;
 	letter-spacing:1.4px ;
 }
 #content div.teacherwrap .teach-content{
-	font-size: 14px;
+	font-size: 10px;
 	font-weight:600;
 	letter-spacing:1.4px ;
+	width:75%;
+	display: inline-block;
 }
 #content div.teacherwrap .teachers{
 	margin:0 auto;
 	text-align: center;
-	width:90%;
+	width:100%;
 }
 #content div.teacherwrap .teachers .teacher{
-	padding:180px 0 0 0;
+	padding:130px 0 0 0;
 	display: inline-block;
-	width: 40%;
+	width: 100%;
 	vertical-align: top;
 }
 #content div.teacherwrap .teachers .intro img{
-	position: absolute;
-	top:-150px;
-	left:calc(50% - 100px) ;
+	margin-top: -120px;
 	text-align: center;
 	border-radius: 50%;
-	width:200px;
-	height:200px;
+	width:120px;
+	height:120px;
+
 }
 #content div.teacherwrap .teachers .teacher .intro{
 	display: inline-block;
 	position: relative;
-	width:80%;
+	width:90%;
 	border:3px solid white;
-	padding:70px 10px 10px 10px;
+	padding:10px 10px 10px 10px;
+	font-size:14px;
 }
 #content div.teacherwrap .teachers .teacher .intro-content{
 	padding:10px 10px 10px 10px;
@@ -662,33 +664,33 @@ body{
 	padding-bottom: 30px;
 }
 #content div.answer .intro{
-	width:80%;
+	width:100%;
 	margin:0 auto;
+	padding-left:10px;
 	padding-bottom: 30px;
+	overflow: hidden;
+	box-sizing: border-box;
 }
 #content div.answer .intro div{
-	width: 30%;
 	display: inline-block;
+	width:30%;
+	float: left;
+	box-sizing: border-box;
+	border:solid orange 2px;
 }
 #content div.answer .intro div img{
-	border:2px solid #EBB94D;
-	width: 80%;
+	width:100%;
 }
-#content div.answer .intro p{
+#content div.answer .intro p.coment{
 	display: inline-block;
-	width:60%;
-	vertical-align: top;
-	text-align: left;
-	padding:20px 20px ;
-	font-size: 18px;
-	font-weight: 100;
-	letter-spacing: 1.4px;
-	color:gray;
+	box-sizing: border-box;
+	width: 70%;
+	text-align:left;
+	font-size: 12px;
+	padding:0 5px;
 }
 #content div.answer .intro span{
-	display: inline-block;
-	line-height: 13px;
-	border-bottom:1px solid black;
+	text-decoration:underline;
 }
 /*========= d i v . c l a s s =========*/
 #content div.class{
@@ -716,14 +718,14 @@ body{
 }
 #content div.class .bottom{
 	text-align: center;
-	padding-bottom: 80px;
+	padding-bottom: 50px;
 }
 #content div.class .bottom ul{
 	text-align: center;
 	display: inline-block;
 	padding-left: 0;
-	margin: 0 10px 0 10px;
-	width: 35%;
+	margin: 0 10px 30px 10px;
+	width: 80%;
 	vertical-align: top;
 	list-style: none;
 	border:2px solid #016EA9;
@@ -846,23 +848,67 @@ body{
 	text-align: center;
 	background-color: #F7C23C;
 	padding-bottom: 40px;
+	overflow: hidden;
+}
+#content div.special span{
+	color:white;
+}
+#content div.special p.title{
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	padding:40px 0 40px 0;
+}
+#content div.special p:nth-child(2){
+	display: inline-block;
+	margin-bottom: 100px;
+	font-weight: bold;
+	width: 80%;
 }
 #content div.special .content-wrap{
 	width:80%;
-	border:solid white 2px;
+	border:solid white 5px;
 	margin:0 auto;
+	font-size: 0;
+	padding:40px;
+	text-align: center;
+}
+#content div.special .content-wrap p.sub{
+	font-size: 24px;
+	letter-spacing: 2.5px;
+	font-weight: bold;
+	background-color: #F7C23C;
+	margin-top: -100px;
+	padding-bottom:40px;
 }
 #content div.special .content{
 	display: inline-block;
 	height: 50%;
-	width:50%;
-	margin:1em;
-    background-color: white;
+	width:calc(100% / 1);
+    background-color: none;
+    vertical-align: top;
+    font-size:10px;
+    padding-bottom: 30px;
 }
 #content div.special .content .circle{
-
+	height:250px;
+	width:250px;
+	border-radius: 50%;
+	background-color: white;
+	margin:0 auto;
+	font-weight: bold;
 }
-
+#content div.special .content .circle p:nth-child(1){
+	height:120px;
+	line-height: 120px;
+	font-size: 24px;
+	color:orange;
+}
+#content div.special .content .circle p.txt{
+	font-size: 14px;
+	letter-spacing: 1.2px;
+	padding:0 12px 8px 12px;
+}
 
 /*========= d i v . s p e c i a l d e t a i l =========*/
 #content div.specialdetail{
@@ -1031,10 +1077,8 @@ body{
 	margin:0 0 5px 0;
 }
 #content div.questions li p a:hover{
-	display: inline-block;
-	border-bottom: black 2px solid;
+	text-decoration:underline;
 	cursor: pointer;
-	line-height: 16px;
 }
 #content div.questions li p.shitumon{
 	font-size: 20px;
