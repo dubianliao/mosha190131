@@ -23,6 +23,10 @@ body{
 	cursor: pointer;
 }
 
+span.br::before{
+	content:"\A";
+	white-space: pre;
+}
 /*============= H E A D E R ====================*/
 
 #header{
@@ -173,7 +177,7 @@ body{
 #content div.introduction .intro-top{
 	height:auto;
 	width: 100%;
-	padding: 50px 50px;
+	padding: 40px 0;
 	box-sizing: border-box;
 }
 #content div.introduction .intro-text-wrap{
@@ -184,14 +188,15 @@ body{
 }
 #content div.introduction .intro-text-wrap p{
 	text-align: center;
-	padding:30px 0 30px 0;
-	font-size: 24px;
+	padding:30px 20px 30px 20px;
+	font-size: 18px;
 	font-weight: 600;
 	letter-spacing: 1.6px;
 }
 #content div.introduction .intro-cornar-left{
 	height: 50px;
 	width: 50px;
+	left:10px;
 	position: absolute;
 	border-top: solid 4px #EBB94D;
 	border-left: solid 4px #EBB94D;
@@ -200,7 +205,7 @@ body{
 	height: 50px;
 	width: 50px;
 	position: absolute;
-	right:0;
+	right:10px;
 	bottom:0;
 	border-right: solid 4px #EBB94D;
 	border-bottom: solid 4px #EBB94D;
@@ -210,13 +215,17 @@ body{
 	background-size: cover;
 	background-position: center bottom;
 	padding-bottom: 140px;
+	text-align: center;
 }
 #content div.introduction .intro-bottom p{
 	text-align: center;
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 16px;
+	width:90%;
+	display: inline-block;
+	color: #7B7B7B;
 }
-#content div.introduction .intro-bottom p span{
+#content div.introduction .intro-bottom p span.power{
 	display: inline-block;
 	line-height: 0.5;
 	font-weight: 600;
@@ -246,7 +255,7 @@ body{
 }
 
 #content div.about .about-top .about-text-wrap{
-	max-height:140px;
+	max-height:auto;
 	max-width:860px;
 	margin:0 auto;
 	position: relative;
@@ -426,14 +435,15 @@ body{
 	max-height:140px;
 	max-width:860px;
 	margin:0 auto;
-	position: relative;
+	position: relative
 }
 #content div.merit .top-wrap p{
-	padding:30px 0 30px 0;
+	padding:30px 20px 30px 20px;
 	text-align: center;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 1.6px;
+	box-sizing: border-box;
 }
 #content div.merit .top-wrap span{
 	font-size: 16px;
@@ -444,12 +454,13 @@ body{
 	position: absolute;
 	border-top: solid 4px #EBB94D;
 	border-left: solid 4px #EBB94D;
+	left:10px;
 }
 #content div.merit .cornar-right{
 	height: 50px;
 	width: 50px;
 	position: absolute;
-	right:0;
+	right:10px;
 	bottom:0;
 	border-right: solid 4px #EBB94D;
 	border-bottom: solid 4px #EBB94D;
@@ -461,8 +472,8 @@ body{
 }
 #content div.merit .main .content{
 	display: inline-block;
-	width:25%;
-	padding:0 20px 0 20px;
+	box-sizing: border-box;
+	width:90%;
 	vertical-align: top;
 }
 #content div.merit .main .content .imgone{
@@ -485,11 +496,13 @@ body{
 	font-weight:700;
 	color:#EBB94D;
 	letter-spacing: 1.6px;
-	text-align: left;
+	text-align: center;
+	padding:10px 0;
 }
 #content div.merit .main .content p.cen{
 	text-align: left;
 	letter-spacing: 1.4px;
+	padding-bottom: 10px;
 }
 
 #content div.merit .bottom{
@@ -497,7 +510,7 @@ body{
 }
 #content div.merit .bottom .bottom-top{
 	margin:0 auto;
-	width:80%;
+	width:90%;
 	border:solid 2px #EBB94D;
 	border-radius: 5px;
 	padding:40px 0 50px 0;
@@ -505,27 +518,29 @@ body{
 	text-align: center;
 }
 #content div.merit .bottom .top1{
-	font-size:28px;
+	font-size:20px;
 	font-weight: 600;
 	letter-spacing: 1.6px;
 	color:#EBB94D;
 	padding-bottom: 10px;
 }
 #content div.merit .bottom .top2{
-	font-size:20px;
+	font-size:16px;
 	font-weight: 600;
 	letter-spacing: 1.6px;
 	padding-bottom: 10px;
 }
 #content div.merit .bottom .top3{
-	font-size:16px;
+	font-size:12px;
 	font-weight: 600;
 	letter-spacing: 1.6px;
 }
 #content div.merit .bottom .bottom-bottom{
 	padding-top: 45px;
+	width: 90%;
 	font-size:14px;
 	font-weight: 300;
+	margin: 0 auto;
 	text-align: center;
 }
 /*========= d i v . t e a c h e r w r a p =========*/
@@ -607,18 +622,19 @@ body{
 	color:white;
 }
 #content div.why .top-wrap p{
-	padding:30px 0 30px 0;
+	padding:30px 20px 30px 20px;
 	text-align: center;
-	font-size: 28px;
+	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 1.6px;
 }
 #content div.why .top-wrap span{
-	font-size: 28px;
+	font-size: 20px;
 }
 #content div.why .cornar-left{
 	height: 50px;
 	width: 50px;
+	left:10px;
 	position: absolute;
 	border-top: solid 4px white;
 	border-left: solid 4px white;
@@ -627,7 +643,7 @@ body{
 	height: 50px;
 	width: 50px;
 	position: absolute;
-	right:0;
+	right:10px;
 	bottom:0;
 	border-right: solid 4px white;
 	border-bottom: solid 4px white;
@@ -819,10 +835,11 @@ body{
 	color: white;
 }
 #content div.bangkok p:nth-child(1){
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
 	letter-spacing: 1.4px;
 	padding-bottom: 30px;
+	text-align: center;
 }
 #content div.bangkok p:nth-child(2){
 	font-size: 12px;
@@ -831,9 +848,10 @@ body{
 	padding-bottom: 30px;
 }
 #content div.bangkok ul{
-	font-size: 15px;
+	font-size: 10px;
 	font-weight: bold;
 	letter-spacing: 1.4px;
+	padding-left: 0;
 }
 #content div.bangkok ul li{
 	padding-bottom: 10px;
@@ -914,7 +932,7 @@ body{
 #content div.specialdetail{
 	padding-top: 50px;
 	text-align: center;
-	font-size:20px;
+	font-size:14px;
 	letter-spacing: 1.4px;
 	font-weight: bold;
 	color: white;
@@ -923,10 +941,14 @@ body{
 	background-position: center center;
 }
 #content div.specialdetail p{
+	display: inline-block;
 	padding-bottom: 30px;
+	width: 90%;
 }
+
 #content div.specialdetail p:nth-child(1){
-	font-size: 28px;
+	display: inline-block;
+	font-size: 20px;
 }
 #content div.specialdetail .top-wrap{
 	max-height:140px;
@@ -936,18 +958,19 @@ body{
 	color:white;
 }
 #content div.specialdetail .top-wrap p{
-	padding:30px 0 30px 0;
+	padding:30px 20px 30px 20px;
 	text-align: center;
-	font-size: 28px;
+	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 1.6px;
 }
 #content div.specialdetail .top-wrap span{
-	font-size: 28px;
+	font-size: 20px;
 }
 #content div.specialdetail .cornar-left{
 	height: 50px;
 	width: 50px;
+	left:10px;
 	position: absolute;
 	border-top: solid 4px white;
 	border-left: solid 4px white;
@@ -956,7 +979,7 @@ body{
 	height: 50px;
 	width: 50px;
 	position: absolute;
-	right:0;
+	right:10px;
 	bottom:0;
 	border-right: solid 4px white;
 	border-bottom: solid 4px white;
@@ -967,25 +990,25 @@ body{
 	padding:40px 0 50px 0;
 }
 #content div.learning p:nth-child(1){
-	font-size: 28px;
+	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 1.6px;
 	padding-bottom:40px;
 }
 #content div.learning p:nth-child(2){
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 600;
 	letter-spacing: 1.6px;
 	padding-bottom:40px;
 }
 #content div.learning .bottom{
 	text-align: center;
-	width: 70%;
+	width: 90%;
 	margin:0 auto;
 }
 #content div.learning .bottom img{
-	width:20%;
-	float: left;
+	width:100%;
+	float: inherit;
 }
 #content div.learning .bottom p{
 	font-size: 14px;
@@ -993,8 +1016,8 @@ body{
 	letter-spacing: 1.6px;
 	display: inline-block;
 	text-align: left;
-	width: 80%;
-	padding:0 0 0 20px ;
+	width: 100%;
+	padding:0 0 0 0;
 	box-sizing: border-box;
 }
 /*========= d i v . c o n t a c t f o r m =========*/
@@ -1018,7 +1041,7 @@ body{
 #content div.contactform .bottom {
 }
 #content div.contactform .bottom input{
-	width: 60%;
+	width: 85%;
 	height: 60px;
 	border:1px solid transparent;
 	border-radius: 5px;
@@ -1030,7 +1053,7 @@ body{
 	margin-bottom:40px;
 }
 #content div.contactform .bottom textarea{
-	width: 60%;
+	width: 85%;
 	height: 90px;
 	border:1px solid transparent;
 	border-radius: 5px;
@@ -1041,7 +1064,7 @@ body{
 #content div.contactform .bottom a{
 	display: block;
 	padding: 15px 0 15px 0;
-	max-width:60%;
+	max-width:90%;
 	margin:0 auto;
 	border-radius: 40px;
 	color: white;
@@ -1063,7 +1086,7 @@ body{
 }
 #content div.questions ul {
 	padding-left: 0;
-	width: 70%;
+	width: 90%;
 	margin: 0 auto;
 }
 #content div.questions li {
@@ -1072,16 +1095,17 @@ body{
 }
 #content div.questions li p{
 	text-align: left;
-	padding:10px 0 10px 20px;
+	padding:10px 30px 10px 10px;
 	border: 1px solid #E5E5E5;
 	margin:0 0 5px 0;
+
 }
 #content div.questions li p a:hover{
 	text-decoration:underline;
 	cursor: pointer;
 }
 #content div.questions li p.shitumon{
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 600;
 	letter-spacing: 1.4px;
 }

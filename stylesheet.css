@@ -214,8 +214,9 @@ body{
 	text-align: center;
 	font-weight: 300;
 	font-size: 20px;
+	color: #7B7B7B;
 }
-#content div.introduction .intro-bottom p span{
+#content div.introduction .intro-bottom p span.power{
 	display: inline-block;
 	line-height: 0.5;
 	font-weight: 600;
