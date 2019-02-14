@@ -13,12 +13,12 @@ body{
 	position: fixed;
 	z-index: 100;
 	display: none;
-	width:80px;
-	height: 80px;
-	line-height: 80px;
+	width:50px;
+	height: 50px;
+	line-height: 50px;
 	text-align: center;
 	background-color: #ECECEC;
-	bottom: 15%;
+	bottom: 5%;
 	right: 5%;
 	cursor: pointer;
 }
@@ -31,7 +31,7 @@ span.br::before{
 
 #header{
 	width:100%;
-	height:72px;
+	height:60px;
 	position: fixed;
 	z-index: 100;
 	background-color: white;
@@ -41,18 +41,21 @@ span.br::before{
 	width:50%;
 	float: left;
 }
-#header div.header-left img{
-	width:125px;
-	padding-top:15px;
-	padding-left:40px;
-	float: left;
+#header div.header-left p.headersp{
+	display:block;
+	font-size: 6px;
+	font-weight: bold;
+	padding-top:5px;
+	padding-left: 5px
 }
-#header div.header-left p{
-	float: left;
-	padding-top: 36px;
-	font-size: 12px;
-	font-weight: 600;
-	letter-spacing: 1.3px;
+#header div.header-left img{
+	display: inline-block;
+	width:100px;
+	padding-top:0;
+	padding-left:5px;
+}
+#header div.header-left p.headerpc{
+	display: none;
 }
 
 #header div.header-right{
@@ -69,10 +72,18 @@ span.br::before{
 	top:0;
 	right: 0;
 	width: 20%;
-	height: 72px;
+	height: 60px;
 	background-color: #D84940;
 	color: white;
 	text-align: center;
+	font-size: 13px;
+	letter-spacing: 1.2px;
+}
+#header div.header-right a.contactsp p{
+	padding-top:8px;
+}
+#header div.header-right a.contactsp img{
+	height:25px;
 }
 #header div.header-right a.contactsp span:hover{
 	display:inline-block;
@@ -84,24 +95,24 @@ span.br::before{
 	background-image: url("public/mainsp.jpg");
 	background-size: cover;
 	background-position: center center;
-	background-color:skyblue;
 	height: auto;
 	max-width:100%;
 	text-align: center;
 }
 #content div.content-top h1{
-	padding-top: 174px;
-	line-height: 60px;
-	font-size:28px;
+	padding-top: 90px;
+	font-size:18px;
+	letter-spacing: 2.0px;
 	font-weight:600;
 }
 #content div.content-top img{
-	padding-top: 30px;
+	padding-top: 20px;
+	max-width:90%;
 }
 #content div.content-top p{
-	padding-top: 64px;
-	padding-bottom: 120px;
-	font-size:20px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	font-size:16px;
 	font-weight:600;
 }
 /*========= d i v . c o n t a c t =========*/
@@ -113,7 +124,7 @@ span.br::before{
 #content div.contact p{
 	color:white;
 	font-weight:600;
-	font-size:20px;
+	font-size:16px;
 	line-height:32px;
 }
 #content div.contact .p1{
@@ -121,18 +132,19 @@ span.br::before{
 }
 #content div.contact .con1{
 	display: inline-block;
+	margin:20px 0 15px 0;
+}
+#content div.contact .con1 a{
 	color:red;
 	background-color: white;
 	font-weight:600;
-	font-size:20px;
-	margin:20px 0 0 0;
-	margin-bottom: 15px;
+	font-size:16px;
 }
 
 #content div.contact .con2{
 	display: block;
-	padding: 30px 0 30px 0;
-	max-width:870px;
+	padding: 20px 0 20px 0;
+	width: 90%;
 	margin:0 auto;
 	border-radius: 50px;
 	color: white;
@@ -141,6 +153,10 @@ span.br::before{
 	font-weight:600;
 	letter-spacing: 2.5px;
 	cursor: pointer;
+}
+#content div.contact .con2 p{
+	margin: 0 auto;
+	width:90%;
 }
 #content div.contact .p2{
 	margin-top: 15px;
@@ -261,9 +277,9 @@ span.br::before{
 	position: relative;
 }
 #content div.about .about-top .about-text-wrap p{
-	padding:50px 0 50px 0;
+	padding:30px 20px 30px 20px;
 	text-align: center;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 1.6px;
 }
@@ -271,6 +287,7 @@ span.br::before{
 	height: 50px;
 	width: 50px;
 	position: absolute;
+	left:10px;
 	border-top: solid 4px #EBB94D;
 	border-left: solid 4px #EBB94D;
 }
@@ -278,15 +295,15 @@ span.br::before{
 	height: 50px;
 	width: 50px;
 	position: absolute;
-	right:0;
+	right:10px;
 	bottom:0;
 	border-right: solid 4px #EBB94D;
 	border-bottom: solid 4px #EBB94D;
 }
 #content div.about .about-top .about-text-answer{
-	padding:45px 0 45px 0;
+	padding:20px 0 20px 0;
 	text-align: center;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 600;
 	letter-spacing: 1.5px;
 }
@@ -297,9 +314,9 @@ span.br::before{
 	border:solid 2px #EBB94D;
 	background-color: white;
 	max-width: 92%;
-	height:200px;
+	height:auto;
 	margin:0 auto;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 }
 #content div.about .about-bottom .about-skills-cap p{
 	text-align: center;
@@ -313,20 +330,23 @@ span.br::before{
 }
 #content div.about .about-skills-wrap .skill{
 	padding-left: 20px;
+	padding-bottom: 20px;
 	height:auto;
 	display: inline-block;
 	text-align: center;
 }
 #content div.about .about-skills-wrap .skill img{
-	height:40%;
+	width:40%;
+	max-height: 40%;
 }
+
 #content div.about .about-skills-wrap .skill p{
 	font-size: 12px;
 	font-weight: 300;
 }
 /*========= d i v . a b o u t s e c o n d =========*/
 #content div.aboutsecond{
-	background-image: url("public/aboutsecondbg.jpg");
+	background-image: url("public/aboutsecondbgsp.jpg");
 	background-size: cover;
 	background-position: center bottom;
 	padding-bottom: 40px;
@@ -371,7 +391,7 @@ span.br::before{
 	width:100%;
 	height:100px;
 	background-color:white;
-	padding:30px 0 35px 0;
+	padding:15px 0 15px 0;
 	border-radius: 10px;
 	margin-bottom:15px;
 }
@@ -528,9 +548,10 @@ span.br::before{
 	width:90%;
 	border:solid 2px #EBB94D;
 	border-radius: 5px;
-	padding:40px 0 50px 0;
+	padding:40px 10px 50px 10px;
 	background-color: white;
 	text-align: center;
+	box-sizing: border-box;
 }
 #content div.merit .bottom .top1{
 	font-size:20px;
@@ -718,7 +739,7 @@ span.br::before{
 	width: 70%;
 	text-align:left;
 	font-size: 12px;
-	padding:0 5px;
+	padding:0 10px;
 }
 #content div.answer .intro span{
 	text-decoration:underline;
@@ -778,7 +799,7 @@ span.br::before{
 #content div.classbottom{
 	background-color: #016EA9;
 	color: white;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: 1.6px;
 	text-align: center;

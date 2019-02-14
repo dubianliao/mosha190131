@@ -37,13 +37,16 @@ body{
 	width:50%;
 	float: left;
 }
+#header div.header-left p.headersp{
+	display:none;
+}
 #header div.header-left img{
 	width:125px;
 	padding-top:15px;
 	padding-left:40px;
 	float: left;
 }
-#header div.header-left p{
+#header div.header-left p.headerpc{
 	float: left;
 	padding-top: 36px;
 	font-size: 12px;
@@ -116,12 +119,13 @@ body{
 }
 #content div.contact .con1{
 	display: inline-block;
+	margin:20px 0 15px 0;
+}
+#content div.contact .con1 a{
 	color:red;
 	background-color: white;
 	font-weight:600;
-	font-size:20px;
-	margin:20px 0 0 0;
-	margin-bottom: 15px;
+	font-size:16px;
 }
 
 #content div.contact .con2{
@@ -136,6 +140,10 @@ body{
 	font-weight:600;
 	letter-spacing: 2.5px;
 	cursor: pointer;
+}
+#content div.contact .con2 p{
+	margin: 0 auto;
+	width:90%;
 }
 #content div.contact .p2{
 	margin-top: 15px;
