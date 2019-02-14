@@ -342,7 +342,7 @@ body{
 	font-size: 20px;
 	font-weight:600;
 }
-#content div.aboutsecond .top-wrap span{
+#content div.aboutsecond .top-wrap span.target{
 	color:#EBB94D;
 }
 #content div.aboutsecond .bottom-wrap .steps{
@@ -384,7 +384,7 @@ body{
 	font-size:16px;
 	font-weight: 600;
 }
-#content div.aboutthird span{
+#content div.aboutthird span.target{
 	color:#EBB94D;
 }
 /*========= d i v . l e a r n i n g =========*/
@@ -406,9 +406,14 @@ body{
 }
 #content div.learning .main{
 	text-align: center;
+	font-size: 0;
+	width: 90%;
+	margin:0 auto;
 }
 #content div.learning .main img{
-	padding:0 20px 0 20px;
+	width: 25%;
+	padding:0 5px 0 5px;
+	box-sizing: border-box;
 }
 #content div.learning p.bottom{
 	text-align: center;
@@ -810,7 +815,7 @@ body{
 
 /*========= d i v . b a n g k o k =========*/
 #content div.bangkok{
-	background-image: url("public/bangkokbg.jpg");
+	background-image: url("public/bangkokbgsp.jpg");
 	background-position: center center;
 	background-size: cover;
 	text-align: left;
