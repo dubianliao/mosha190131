@@ -71,7 +71,7 @@ span.br::before{
 	position: absolute;
 	top:0;
 	right: 0;
-	width: 20%;
+	width: 80px;
 	height: 60px;
 	background-color: #D84940;
 	color: white;
@@ -634,8 +634,8 @@ span.br::before{
 /*========= d i v . w h y =========*/
 #content div.why{
 	background-color: #EBB94D;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #content div.why .why-circle{
 }
@@ -799,7 +799,7 @@ span.br::before{
 #content div.classbottom{
 	background-color: #016EA9;
 	color: white;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: 1.6px;
 	text-align: center;
@@ -809,56 +809,74 @@ span.br::before{
 	line-height: 1.5;
 }	
 /*========= d i v . f l o w =========*/
-#content div.flow{
-	text-align: center;
-	font-size: 0;
+#content div.flowsp{
+	display: block;
+	text-align: left;
+	margin: 0 auto;
+	width: 90%;
 	padding-bottom: 40px;
 }
-#content div.flow p{
-	font-size: 28px;
-	font-weight: bold;
-	padding:50px 0 50px 0;
-}
-#content div.flow img{
-	width:80%;
-	padding-bottom: 30px;
-}
-#content div.flow .content-wrap{
-	display: inline-block;
-	width:80%;
-	background-color: #FEF5E0;
-	padding:20px 30px 20px 40px;
-}
-#content div.flow .content-wrap .left{
-	display: inline-block;
-	width:30%;
-	float: left;
-}
-#content div.flow .content-wrap .left img{
-	width:50%;
-	padding-bottom: 10px;
-}
-#content div.flow .content-wrap .left p{
-	padding:10px 0 0 0;
+#content div.flowsp p.flow-sub{
+	text-align:center;
 	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1.3px;
+	padding:40px 0 40px 0;
 }
-#content div.flow .content-wrap .right{
-	display: inline-block;
-	width:70%;
+#content div.flowsp ul{
+	padding-left: 0px;
 }
-#content div.flow .content-wrap .right p{
-	padding:10px 0 0 0;
-	vertical-align: top;
-	text-align: left;
-	font-size: 14px
+#content div.flowsp ul li{
+	list-style: none;
 }
-#content div.flow .content-wrap .right p span{
-	font-size: 20px
+
+
+#content div.flowsp .content-wrap{
+	margin-bottom: 5px;
+	background-color: #FEF5E0;
+
 }
-#content div.flow .flow-connect{
-	width:60%;
-	padding:0 0 0 0;
+#content div.flowsp .content-wrap .sub-wrap{
+	vertical-align: middle;
+	display: table;
+	letter-spacing: 1.4px;
+	font-size: 16px;
+	font-weight: bold;
 }
+#content div.flowsp .content-wrap .sub-wrap p.sub-pic{
+	width:10%;
+	display: table-cell;
+	padding: 10px;
+}
+#content div.flowsp .content-wrap .sub-wrap p.sub-pic img{
+	width:100%;
+	vertical-align: middle;
+}
+#content div.flowsp .content-wrap .sub-wrap p.sub{
+	width:80%;
+	display: table-cell;
+	height:100%;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+#content div.flowsp .content-wrap .sub-wrap p.mark{
+	width:10%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+#content div.flowsp .content-wrap .content{
+	display: none;
+	padding:10px;
+	font-size: 12px;
+}
+
+
+
+#content div.flow{
+	display: none;
+}
+
 
 
 /*========= d i v . b a n g k o k =========*/
@@ -887,7 +905,6 @@ span.br::before{
 	font-size: 10px;
 	font-weight: bold;
 	letter-spacing: 1.4px;
-	padding-left: 0;
 }
 #content div.bangkok ul li{
 	padding-bottom: 10px;

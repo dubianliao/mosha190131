@@ -769,7 +769,11 @@ body{
 	line-height: 1.5;
 }	
 /*========= d i v . f l o w =========*/
+#content div.flowsp{
+	display: none;
+}
 #content div.flow{
+	display: block;
 	text-align: center;
 	font-size: 0;
 	padding-bottom: 40px;

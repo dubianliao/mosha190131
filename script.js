@@ -22,6 +22,26 @@ $(function(){
 		}
 	});
 
+
+	//アコーディオン　flowsp
+	var $flowsp = $('.flowsp').find('.content-wrap');
+	$flowsp.click(function(){
+		var $target = $(this).find('.content');
+		var $mark = $(this).find('.mark');
+
+		if($target.hasClass('open')){
+			$target.removeClass('open');
+			$target.slideUp();
+			$mark.html('↓');
+		}else{
+			$target.addClass('open');
+			$target.slideDown();
+			$mark.html('↑');
+		}
+
+	});
+
+
 	//トップへ戻るボタン
 	$('#top-btn').click(function(){
 		$('html,body').animate({'scrollTop':0},500);
