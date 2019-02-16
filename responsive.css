@@ -159,11 +159,15 @@ span.br::before{
 	width:90%;
 }
 #content div.contact .p2{
-	margin-top: 15px;
-	margin-bottom: 20px;
+	width: 93%;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #content div.contact .p3{
-	margin-bottom: 40px;
+	padding-bottom: 20px;
+	width: 93%;
+	margin: 0 auto;
 }
 #content div.contact .p4{
 	margin-bottom: 40px;
@@ -329,8 +333,7 @@ span.br::before{
 	text-align: center;
 }
 #content div.about .about-skills-wrap .skill{
-	padding-left: 20px;
-	padding-bottom: 20px;
+	padding:0 10px 20px 10px;
 	height:auto;
 	display: inline-block;
 	text-align: center;
@@ -413,13 +416,13 @@ span.br::before{
 /*========= d i v . a b o u t t h i r d =========*/
 #content div.aboutthird{
 	text-align: center;
-	padding:40px 0 45px 0;
+	padding:20px 0 20px 0;
 	letter-spacing: 1.5px;
 	color: white;
 	background-color: #016EA9;
 }
 #content div.aboutthird p{
-	font-size:16px;
+	font-size:12px;
 	font-weight: 600;
 }
 #content div.aboutthird span.target{
@@ -475,13 +478,13 @@ span.br::before{
 #content div.merit .top-wrap p{
 	padding:30px 20px 30px 20px;
 	text-align: center;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 600;
 	letter-spacing: 1.6px;
 	box-sizing: border-box;
 }
 #content div.merit .top-wrap span{
-	font-size: 16px;
+	font-size: 14px;
 }
 #content div.merit .cornar-left{
 	height: 50px;
@@ -541,14 +544,14 @@ span.br::before{
 }
 
 #content div.merit .bottom{
-	padding:55px 0 55px 0;
+	padding:20px 0 20px 0;
 }
 #content div.merit .bottom .bottom-top{
 	margin:0 auto;
 	width:90%;
 	border:solid 2px #EBB94D;
 	border-radius: 5px;
-	padding:40px 10px 50px 10px;
+	padding:20px 10px 30px 10px;
 	background-color: white;
 	text-align: center;
 	box-sizing: border-box;
@@ -621,6 +624,7 @@ span.br::before{
 }
 #content div.teacherwrap .teachers .teacher .intro{
 	display: inline-block;
+	box-sizing: border-box;
 	position: relative;
 	width:90%;
 	border:3px solid white;
@@ -834,7 +838,6 @@ span.br::before{
 #content div.flowsp .content-wrap{
 	margin-bottom: 5px;
 	background-color: #FEF5E0;
-
 }
 #content div.flowsp .content-wrap .sub-wrap{
 	vertical-align: middle;
@@ -870,7 +873,9 @@ span.br::before{
 	padding:10px;
 	font-size: 12px;
 }
-
+#content div.flowsp .content-wrap:nth-child(1) .content{
+	display: block;
+}
 
 
 #content div.flow{
@@ -884,35 +889,33 @@ span.br::before{
 	background-image: url("public/bangkokbgsp.jpg");
 	background-position: center center;
 	background-size: cover;
-	text-align: left;
-	padding: 50px 0 40px 30px;
 	color: white;
+	font-size: 14px;
+	padding:0 20px;
 }
 #content div.bangkok p:nth-child(1){
-	font-size: 22px;
-	font-weight: bold;
-	letter-spacing: 1.4px;
-	padding-bottom: 30px;
 	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2.0px;
+	padding:40px 0 30px 0;
 }
 #content div.bangkok p:nth-child(2){
-	font-size: 12px;
-	font-weight: normal;
-	letter-spacing: 1.4px;
-	padding-bottom: 30px;
+	
 }
 #content div.bangkok ul{
-	font-size: 10px;
-	font-weight: bold;
-	letter-spacing: 1.4px;
+	padding-left: 0;
+	padding-top: 20px;
 }
 #content div.bangkok ul li{
+	list-style: none;
+	font-weight: bold;
 	padding-bottom: 10px;
 }
 #content div.bangkok p.bottom{
-	padding:20px 0 30px 0;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: bold;
+	padding:10px 0 30px 0;
 }
 /*========= d i v . s p e c i a l =========*/
 #content div.special{
@@ -921,19 +924,20 @@ span.br::before{
 	padding-bottom: 40px;
 	overflow: hidden;
 }
-#content div.special span{
+#content div.special span.target{
 	color:white;
 }
 #content div.special p.title{
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 1.4px;
-	padding:40px 0 40px 0;
+	padding:20px 0 20px 0;
 }
 #content div.special p:nth-child(2){
 	display: inline-block;
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 	font-weight: bold;
+	font-size: 14px;
 	width: 80%;
 }
 #content div.special .content-wrap{
@@ -943,6 +947,9 @@ span.br::before{
 	font-size: 0;
 	padding:40px;
 	text-align: center;
+}
+#content div.special .content-wrapsp{
+	display: none;
 }
 #content div.special .content-wrap p.sub{
 	font-size: 24px;
@@ -981,6 +988,53 @@ span.br::before{
 	padding:0 12px 8px 12px;
 }
 
+@media screen and (max-width: 600px) {
+	#content div.special .content-wrap{
+		display: none;
+	}
+
+	#content div.special .content-wrapsp{
+		width:92%;
+		border:solid white 1.4px;
+		display: inline-block;
+	}
+	#content div.special .content-wrapsp p.sub{
+		max-width:80%;
+		background-color: #F7C23C;
+		display: inline-block;
+		margin-top: -200px;
+		padding-bottom: 30px;
+		font-weight: bold;
+		letter-spacing: 1.8px;
+	}
+	#content div.special .content-wrapsp .content{
+		display: table;
+		width: 90%;
+		margin: 0 auto;
+	}
+	#content div.special .content-wrapsp .content .circle-wrap{
+		display: table-cell;
+		width:20%;
+		vertical-align: middle;
+	}
+	#content div.special .content-wrapsp .content .circle{
+		display: inline-block;
+		height:50px;
+		width: 50px;
+		font-size: 10px;
+		line-height: 50px;
+		color: orange;
+	}
+	#content div.special .content-wrapsp .content .text{
+		display: table-cell;
+		width:80%;
+		vertical-align: bottom;
+		letter-spacing: 1.4px;
+		text-align: left;
+		color: white;
+	}
+}
+
 /*========= d i v . s p e c i a l d e t a i l =========*/
 #content div.specialdetail{
 	padding-top: 50px;
@@ -992,6 +1046,7 @@ span.br::before{
 	background-image: url("public/specialdetail.jpg");
 	background-size: cover;
 	background-position: center center;
+	overflow: hidden;
 }
 #content div.specialdetail p{
 	display: inline-block;
@@ -1100,7 +1155,7 @@ span.br::before{
 	border-radius: 5px;
 	margin-bottom:20px;
 	padding:0 10px 0 10px;
-	font-size: 20px;
+	font-size: 16px;
 }
 #content div.contactform .bottom input:nth-child(3){
 	margin-bottom:40px;
@@ -1112,7 +1167,7 @@ span.br::before{
 	border-radius: 5px;
 	padding: 10px;
 	margin-bottom:40px;
-	font-size: 18px;
+	font-size: 14px;
 }
 #content div.contactform .bottom a{
 	display: block;
@@ -1158,14 +1213,15 @@ span.br::before{
 	cursor: pointer;
 }
 #content div.questions li p.shitumon{
-	font-size: 16px;
+	font-size: 14px;
+	line-height: 17px;
 	font-weight: 600;
 	letter-spacing: 1.4px;
 }
 #content div.questions li p.kotae{
 	display: none;
 	border:none;
-	font-size: 16px;
+	font-size: 14px;
 }
 #content div.questions li span{
 	text-align: right;

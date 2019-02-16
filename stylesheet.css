@@ -866,7 +866,7 @@ body{
 	padding-bottom: 40px;
 	overflow: hidden;
 }
-#content div.special span{
+#content div.special span.target{
 	color:white;
 }
 #content div.special p.title{
@@ -886,6 +886,9 @@ body{
 	font-size: 0;
 	padding:40px;
 	text-align: center;
+}
+#content div.special .content-wrapsp{
+	display: none;
 }
 #content div.special .content-wrap p.sub{
 	font-size: 24px;
